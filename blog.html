@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- daisy ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <main>
+
+        <!-- Blog start -->
+        <div class="container mx-auto mt-20">
+            <div class="join join-vertical bg-base-100">
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" checked="checked" />
+                    <div class="collapse-title font-semibold">What is the Document Object Model?(DOM)</div>
+                    <div class="collapse-content text-sm">The Document Object Model (DOM) is a programming interface
+                        that represents an HTML or XML document as a structured tree of objects. It allows scripts (like
+                        JavaScript) to dynamically manipulate the content, structure, and styles of a webpage. Each
+                        element, attribute, and text in the document is a node in the DOM tree, which can be accessed
+                        and modified using methods like getElementById, innerHTML, and appendChild.</div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title font-semibold">How do you select an element from the dom?</div>
+                    <div class="collapse-content text-sm">1. By ID (getElementById) – Selects a single element with the
+                        given id.javascriptCopy Edit
+                        2. By Class Name (getElementsByClassName) – Selects all elements with a given class (returns a
+                        collection).javascript Copy Edit
+                        3. By Tag Name (getElementsByTagName) – Selects all elements with a given tag (returns a
+                        collection).
+                        4. By CSS Selector (querySelector) – Selects the first matching element.
+
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title font-semibold">What is event delegation in the context of DOM?and why
+                        is it useful?</div>
+                    <div class="collapse-content text-sm">Event delegation is a technique in the DOM where a parent
+                        element handles events for its child elements using event bubbling. Instead of adding event
+                        listeners to multiple child elements, you attach a single listener to their common ancestor.
+                        <br>
+                        Why is it useful?<br>
+                        Improves Performance – Reduces memory usage by adding fewer event listeners.
+                        Handles Dynamically Added Elements – Works even if new child elements are added later.
+                        Simplifies Code – Avoids adding and removing multiple listeners manually.
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title font-semibold">How do you manipulate an elemen's attributes and style
+                        usin the DOM?</div>
+                    <div class="collapse-content text-sm">You can manipulate an element’s attributes and styles using
+                        JavaScript in the DOM.
+                        <br>
+                        1. Manipulating Attributesbr
+                        <br>
+                        setAttribute(name, value) → Sets/changes an attribute. <br>
+                        getAttribute(name) → Gets the attribute value. <br>
+                        removeAttribute(name) → Removes an attribute.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog end -->
+    </main>
+</body>
+
+</html>
